@@ -1,6 +1,6 @@
-from master.models import *
+from WebAbsensi.models import *
 from rest_framework import viewsets
-from master.serializers import *
+from WebAbsensi.serializers import *
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 
