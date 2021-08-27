@@ -8,23 +8,23 @@ from rest_framework.permissions import IsAuthenticated
 class MasterSiswaViewSet(viewsets.ModelViewSet):
     queryset = MasterSiswa.objects.all()
     serializer_class = MasterSiswaSerializer
-    authentication_classes = (TokenAuthentication,)
-    permission_classes = (IsAuthenticated,)
+    # authentication_classes = (TokenAuthentication,)
+    # permission_classes = (IsAuthenticated,)
 
 class MasterKelasViewSet(viewsets.ModelViewSet):
     queryset = MasterKelas.objects.all()
     serializer_class = MasterKelasSerializer
-    authentication_classes = (TokenAuthentication,)
-    permission_classes = (IsAuthenticated,)
+    # authentication_classes = (TokenAuthentication,)
+    # permission_classes = (IsAuthenticated,)
 
 class MasterJurusanViewSet(viewsets.ModelViewSet):
     queryset = MasterJurusan.objects.all()
     serializer_class = MasterJurusanSerializer
-    authentication_classes = (TokenAuthentication,)
-    permission_classes = (IsAuthenticated,)
+    # authentication_classes = (TokenAuthentication,)
+    # permission_classes = (IsAuthenticated,)
 
 class AbsensiViewSet(viewsets.ModelViewSet):
     queryset = Absensi.objects.all()
     serializer_class = AbsensiSerializer
-    authentication_classes = (TokenAuthentication,)
-    permission_classes = (IsAuthenticated,)
+    # authentication_classes = (TokenAuthentication,)
+    # permission_classes = (IsAuthenticated,)
